@@ -12,36 +12,36 @@ main_application.wm_iconbitmap('icon.ico')
 # -------------------------------------&&&&&&&& End main menu &&&&&&&&&&& ----------------------------------
 main_menu = tk.Menu()
 # file icons
-new_icon = tk.PhotoImage(file='icons2/new.png')
-open_icon = tk.PhotoImage(file='icons2/open.png')
-save_icon = tk.PhotoImage(file='icons2/save.png')
-save_as_icon = tk.PhotoImage(file='icons2/save_as.png')
-exit_icon = tk.PhotoImage(file='icons2/exit.png')
+new_icon = tk.PhotoImage(file='icons/new.png')
+open_icon = tk.PhotoImage(file='icons/open.png')
+save_icon = tk.PhotoImage(file='icons/save.png')
+save_as_icon = tk.PhotoImage(file='icons/save_as.png')
+exit_icon = tk.PhotoImage(file='icons/exit.png')
 
 file = tk.Menu(main_menu, tearoff=False)
 
 # edit
 # edit icons
-copy_icon = tk.PhotoImage(file='icons2/copy.png')
-paste_icon = tk.PhotoImage(file='icons2/paste.png')
-cut_icon = tk.PhotoImage(file='icons2/cut.png')
-clear_all_icon = tk.PhotoImage(file='icons2/clear_all.png')
-find_icon = tk.PhotoImage(file='icons2/find.png')
+copy_icon = tk.PhotoImage(file='icons/copy.png')
+paste_icon = tk.PhotoImage(file='icons/paste.png')
+cut_icon = tk.PhotoImage(file='icons/cut.png')
+clear_all_icon = tk.PhotoImage(file='icons/clear_all.png')
+find_icon = tk.PhotoImage(file='icons/find.png')
 
 edit = tk.Menu(main_menu, tearoff=False)
 
 # view icons
-tool_bar_icon = tk.PhotoImage(file='icons2/tool_bar.png')
-status_bar_icon = tk.PhotoImage(file='icons2/status_bar.png')
+tool_bar_icon = tk.PhotoImage(file='icons/tool_bar.png')
+status_bar_icon = tk.PhotoImage(file='icons/status_bar.png')
 view = tk.Menu(main_menu, tearoff=False)
 
 # color theme
-light_default_icon = tk.PhotoImage(file='icons2/light_default.png')
-light_plus_icon = tk.PhotoImage(file='icons2/light_plus.png')
-dark_icon = tk.PhotoImage(file='icons2/dark.png')
-red_icon = tk.PhotoImage(file='icons2/red.png')
-monokai_icon = tk.PhotoImage(file='icons2/monokai.png')
-night_blue_icon = tk.PhotoImage(file='icons2/night_blue.png')
+light_default_icon = tk.PhotoImage(file='icons/light_default.png')
+light_plus_icon = tk.PhotoImage(file='icons/light_plus.png')
+dark_icon = tk.PhotoImage(file='icons/dark.png')
+red_icon = tk.PhotoImage(file='icons/red.png')
+monokai_icon = tk.PhotoImage(file='icons/monokai.png')
+night_blue_icon = tk.PhotoImage(file='icons/night_blue.png')
 color_theme = tk.Menu(main_menu, tearoff=False)
 
 theme_choice = tk.StringVar()
@@ -84,37 +84,37 @@ font_size.current(4)
 font_size.grid(row=0, column=1, padx=5)
 
 # bold button
-bold_icon = tk.PhotoImage(file='icons2/bold.png')
+bold_icon = tk.PhotoImage(file='icons/bold.png')
 bold_btn = ttk.Button(tool_bar, image=bold_icon)
 bold_btn.grid(row=0, column=2, padx=5)
 
 # italic button
-italic_icon = tk.PhotoImage(file='icons2/italic.png')
+italic_icon = tk.PhotoImage(file='icons/italic.png')
 italic_btn = ttk.Button(tool_bar, image=italic_icon)
 italic_btn.grid(row=0, column=3, padx=5)
 
 # underline button
-underline_icon = tk.PhotoImage(file='icons2/underline.png')
+underline_icon = tk.PhotoImage(file='icons/underline.png')
 underline_btn = ttk.Button(tool_bar, image=underline_icon)
 underline_btn.grid(row=0, column=4, padx=5)
 
 # font color button
-font_color_icon = tk.PhotoImage(file='icons2/font_color.png')
+font_color_icon = tk.PhotoImage(file='icons/font_color.png')
 font_color_btn = ttk.Button(tool_bar, image=font_color_icon)
 font_color_btn.grid(row=0, column=5, padx=5)
 
 # align left
-align_left_icon = tk.PhotoImage(file='icons2/align_left.png')
+align_left_icon = tk.PhotoImage(file='icons/align_left.png')
 align_left_btn = ttk.Button(tool_bar, image=align_left_icon)
 align_left_btn.grid(row=0, column=6, padx=5)
 
 # align center
-align_center_icon = tk.PhotoImage(file='icons2/align_center.png')
+align_center_icon = tk.PhotoImage(file='icons/align_center.png')
 align_center_btn = ttk.Button(tool_bar, image=align_center_icon)
 align_center_btn.grid(row=0, column=7, padx=5)
 
 # align right
-align_right_icon = tk.PhotoImage(file='icons2/align_right.png')
+align_right_icon = tk.PhotoImage(file='icons/align_right.png')
 align_right_btn = ttk.Button(tool_bar, image=align_right_icon)
 align_right_btn.grid(row=0, column=8, padx=5)
 
